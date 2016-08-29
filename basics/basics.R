@@ -64,3 +64,11 @@ l4 <- list(1,2,3,4, sin, cos)
 print (l4)
 print (class(l4))
 
+#matrices
+m = matrix(c(1,2,3,1,2,3,1,2,3), nrow=3, ncol=3, byrow=TRUE)
+print (m)
+print (class(m))
+m = matrix(c(1,2,3,1,2,3,1,2,3), nrow=3, ncol=3, byrow=FALSE)
+print (m)
+m = matrix(c(1,2,3,4,5,6), nrow=2, ncol=3, byrow=TRUE)
+print (m)
