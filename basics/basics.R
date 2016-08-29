@@ -99,3 +99,14 @@ d <- data.frame(
 )
 print (d)
 print (class(d))
+
+#cat
+v <- 1
+cat ("foo v = ", v)
+
+#ls
+print (ls())
+
+#rm
+rm (list = ls())
+print (ls())
