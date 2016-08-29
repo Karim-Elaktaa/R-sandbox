@@ -65,6 +65,7 @@ print (l4)
 print (class(l4))
 
 #matrices
+print ("Matrices")
 m = matrix(c(1,2,3,1,2,3,1,2,3), nrow=3, ncol=3, byrow=TRUE)
 print (m)
 print (class(m))
@@ -72,3 +73,12 @@ m = matrix(c(1,2,3,1,2,3,1,2,3), nrow=3, ncol=3, byrow=FALSE)
 print (m)
 m = matrix(c(1,2,3,4,5,6), nrow=2, ncol=3, byrow=TRUE)
 print (m)
+
+#arrays
+print ("Arrays")
+a <- array(c(1,2,3), dim=c(3,3,2))
+print (a)
+print (class(a))
+a <- array(c("a","b","c"), dim=c(1,3,2))
+print (a)
+print (class(a))
