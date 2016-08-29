@@ -82,3 +82,20 @@ print (class(a))
 a <- array(c("a","b","c"), dim=c(1,3,2))
 print (a)
 print (class(a))
+
+#factors
+print ("Factors")
+v <- c("a","b","c","d")
+f <- factor(v)
+print (f)
+print (nlevels(f))
+print (class(f))
+
+#data frames
+print ("Data Frames")
+d <- data.frame(
+	words = c("one","two","three"),
+	numbers = c(1,2,3)	
+)
+print (d)
+print (class(d))
