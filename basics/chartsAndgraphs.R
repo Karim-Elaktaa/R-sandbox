@@ -1,0 +1,5 @@
+data <- c(1,2,3,4,5)
+labels <- c("one", "two", "three", "four", "five")
+png(file = "test.jpg")
+pie(data, labels)
+dev.off()
